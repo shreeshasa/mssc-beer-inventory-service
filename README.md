@@ -1,5 +1,7 @@
 # MSSC Beer Inventory Service
 
+[![Build Status](https://travis-ci.com/shreeshasa/mssc-beer-inventory-service.svg?branch=master)](https://travis-ci.com/shreeshasa/mssc-beer-inventory-service)
+
 ```
 mvn clean package docker:build docker:push -Ddocker.username=<user> -Ddocker.password=<password>
 ```
